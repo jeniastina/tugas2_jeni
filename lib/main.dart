@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
         body: ListView(children: <Widget>[
           Container(
             padding: EdgeInsets.all(15),
-            child: Text('Flutter Widget: Penggunaan ListView Class', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+            child: Text('Product Information', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
           ),
           Container(
             padding: EdgeInsets.all(15),
