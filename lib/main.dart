@@ -35,6 +35,15 @@ class MyHomePage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      body: Center(
+        child: Container(
+            width: 600,
+            child: Text(
+              'Product',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.headline4,
+            )),
+      ),
     );
   }
 }
