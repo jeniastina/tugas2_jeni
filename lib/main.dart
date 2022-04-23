@@ -27,23 +27,23 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Add Product"),
-        leading: GestureDetector(
-          onTap: () {},
-          child: Icon(Icons.add),
+        appBar: AppBar(
+          title: Text("Add Product"),
+          leading: GestureDetector(
+            onTap: () {},
+            child: Icon(Icons.add),
+          ),
+          centerTitle: true,
         ),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Container(
-            width: 600,
-            child: Text(
-              'Product',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.headline4,
-            )),
-      ),
-    );
+        body: ListView(children: <Widget>[
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text('Flutter Widget: Penggunaan ListView Class', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+          ),
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text('''Lorem Ipsum adalah contoh teks atau ...''', style: TextStyle(fontSize: 16)),
+          ),
+        ]));
   }
 }
