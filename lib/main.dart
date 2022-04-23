@@ -33,6 +33,7 @@ class MyHomePage extends StatelessWidget {
           onTap: () {},
           child: Icon(Icons.add),
         ),
+        centerTitle: true,
       ),
     );
   }
