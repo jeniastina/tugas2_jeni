@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
             padding: EdgeInsets.only(top: 5, bottom: 10),
             child: TextField(
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: 'Rate of Interest', hintText: 'In Percent', border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
+              decoration: InputDecoration(labelText: '+', hintText: 'In Percent', border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
             ),
           ),
         ]));
