@@ -28,33 +28,12 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Products"),
+        title: Text("Add Product"),
         leading: GestureDetector(
           onTap: () {},
           child: Icon(Icons.add),
         ),
       ),
-      body: ListView.builder(
-          itemCount: 3,
-          itemBuilder: (context, index) {
-            return Padding(
-                padding: const EdgeInsets.only(
-                  top: 20,
-                ),
-                child: ListTile(
-                  leading: Image.network("https://2.bp.blogspot.com/-QxiD_sNU8yM/T6Dba3ehjcI/AAAAAAAAAMo/7bL6fUDXjb0/s1600/Pendleton-Black-White-Hero.png"),
-                  title: Text(
-                    "Brand new shoes",
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  subtitle: Text(
-                    "SH_231",
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ));
-          }),
     );
   }
 }
