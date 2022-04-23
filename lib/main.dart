@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
           title: Text("Add Product"),
           leading: GestureDetector(
             onTap: () {},
-            child: Icon(Icons.add),
+            child: Icon(Icons.arrow_back),
           ),
           centerTitle: true,
         ),
