@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(15),
-            child: Text('''Lorem Ipsum adalah contoh teks atau ...''', style: TextStyle(fontSize: 16)),
+            child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
         ]));
   }
