@@ -45,14 +45,13 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
           Container(
-            padding: EdgeInsets.symmetric(vertical: 20, horizontal: 50),
             margin: EdgeInsets.all(20),
             width: 100,
             height: 100,
             decoration: BoxDecoration(
               border: Border.all(
                 color: Colors.blue,
-                width: 5,
+                width: 3,
               ),
               borderRadius: BorderRadius.circular(10),
             ),
