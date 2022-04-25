@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(20),
             width: 100,
-            height: 100,
+            height: 150,
             decoration: BoxDecoration(
               border: Border.all(
                 color: Colors.blue,
