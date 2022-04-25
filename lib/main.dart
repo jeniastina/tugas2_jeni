@@ -44,12 +44,12 @@ class MyHomePage extends StatelessWidget {
             padding: EdgeInsets.all(15),
             child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
-          Padding(
-            padding: EdgeInsets.only(top: 5, bottom: 10),
-            child: TextField(
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: '+', hintText: 'In Percent', border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
-            ),
+          Container(
+            decoration: BoxDecoration(
+                border: Border.all(
+              width: 4,
+              color: Colors.black,
+            )),
           ),
         ]));
   }
