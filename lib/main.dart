@@ -45,8 +45,9 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
           Container(
-            width: 250,
-            height: 200,
+            padding: EdgeInsets.all(20),
+            width: 100,
+            height: 100,
             decoration: BoxDecoration(
               border: Border.all(
                 color: Colors.blue,
