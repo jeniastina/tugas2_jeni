@@ -56,7 +56,11 @@ class MyHomePage extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
             ),
             child: Center(
-              child: Icon(Icons.add),
+              child: Icon(
+                Icons.add,
+                color: Colors.blue,
+                size: 15,
+              ),
             ),
           )
         ]));
