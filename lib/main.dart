@@ -62,6 +62,13 @@ class MyHomePage extends StatelessWidget {
                 size: 30,
               ),
             ),
+          ),
+          TextFormField(
+            decoration: new InputDecoration(
+              hintText: "Shoes 101",
+              labelText: "Product Name",
+              border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
+            ),
           )
         ]));
   }
