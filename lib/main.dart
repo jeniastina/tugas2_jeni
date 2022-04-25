@@ -45,12 +45,21 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
           Container(
-            decoration: BoxDecoration(
+              decoration: BoxDecoration(
+                color: const Color(0xff7c94b6),
+                image: const DecorationImage(
+                  image: NetworkImage('https://i.pinimg.com/originals/91/86/6b/91866b918c9cca0747f483a46943e926.jpg'),
+                  fit: BoxFit.cover,
+                ),
                 border: Border.all(
-              width: 4,
-              color: Colors.black,
-            )),
-          ),
+                  color: Colors.black,
+                  width: 8,
+                ),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              height: 280,
+              width: 200,
+              margin: EdgeInsets.all(20))
         ]));
   }
 }
