@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
               child: Icon(
                 Icons.add,
                 color: Colors.blue,
-                size: 15,
+                size: 30,
               ),
             ),
           )
