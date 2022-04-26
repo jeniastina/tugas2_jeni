@@ -69,8 +69,7 @@ class MyHomePage extends StatelessWidget {
           ),
           TextFormField(
             decoration: new InputDecoration(
-              hintText: "masukan nama lengkap anda",
-              labelText: "Nama Lengkap",
+              hintText: "Shoes 101",
               border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
             ),
           )
