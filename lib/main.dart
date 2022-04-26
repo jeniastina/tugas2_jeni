@@ -63,10 +63,14 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
           ),
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text('''Product Name''', style: TextStyle(fontSize: 15)),
+          ),
           TextFormField(
             decoration: new InputDecoration(
-              hintText: "Shoes 101",
-              labelText: "Product Name",
+              hintText: "masukan nama lengkap anda",
+              labelText: "Nama Lengkap",
               border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
             ),
           )
