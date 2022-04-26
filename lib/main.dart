@@ -64,8 +64,12 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           TextFormField(
-            decoration: InputDecoration(hintText: 'Shoes 101', labelText: 'Product Name'),
-          ),
+            decoration: new InputDecoration(
+              hintText: "Shoes 101",
+              labelText: "Product Name",
+              border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
+            ),
+          )
         ]));
   }
 }
