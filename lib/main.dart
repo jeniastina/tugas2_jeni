@@ -64,19 +64,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           TextFormField(
-            decoration: InputDecoration(
-              fillColor: Color(0xffF1F0F5),
-              filled: true,
-              enabledBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(20),
-                borderSide: BorderSide(),
-              ),
-              focusedBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(20),
-                borderSide: BorderSide(),
-              ),
-              labelText: 'Name ',
-            ),
+            decoration: InputDecoration(hintText: 'Shoes 101', labelText: 'Product Name'),
           ),
         ]));
   }
