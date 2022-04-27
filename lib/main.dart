@@ -65,10 +65,9 @@ class MyHomePage extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(15),
-            child: Text('''Product Name''', style: TextStyle(fontSize: 15)),
+            child: Text('''Product Name''', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
           ),
           Container(
-            margin: EdgeInsets.all(20),
             width: 100,
             child: TextFormField(
                 decoration: new InputDecoration(
