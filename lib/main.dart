@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Name''', style: TextStyle(fontSize: 15)),
           ),
           Container(
-            width: 100.0,
+            width: 100,
             child: TextFormField(
                 decoration: new InputDecoration(
               hintText: "Shoes 101",
