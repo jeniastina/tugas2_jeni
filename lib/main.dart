@@ -127,6 +127,30 @@ class MyHomePage extends StatelessWidget {
                       borderSide: BorderSide(color: Colors.grey, width: 2),
                     )),
               )),
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text('''Descriptions''', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
+          ),
+          Container(
+              margin: EdgeInsets.all(20),
+              width: 100,
+              height: 50,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.grey,
+                  width: 2,
+                ),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: TextFormField(
+                decoration: new InputDecoration(
+                    hintStyle: TextStyle(color: Colors.grey),
+                    hintText: "Enter a Descriptions",
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12.0)),
+                      borderSide: BorderSide(color: Colors.grey, width: 2),
+                    )),
+              )),
         ]));
   }
 }
