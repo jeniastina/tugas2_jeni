@@ -146,7 +146,8 @@ class MyHomePage extends StatelessWidget {
                     )),
               )),
           Container(
-            width: 80,
+            margin: EdgeInsets.all(50),
+            width: 200,
             height: 45,
             child: TextButton(
               style: TextButton.styleFrom(
