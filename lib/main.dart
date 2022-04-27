@@ -145,21 +145,25 @@ class MyHomePage extends StatelessWidget {
                       borderSide: BorderSide(color: Colors.grey, width: 2),
                     )),
               )),
-          TextButton(
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(18.0),
+          Container(
+            width: 200,
+            height: 45,
+            child: TextButton(
+              style: TextButton.styleFrom(
+                backgroundColor: Color(0xff0091EA),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              onPressed: () {},
+              child: Text(
+                "Add Product",
+                style: TextStyle(
+                  color: Color(0xffffffff),
                 ),
               ),
             ),
-            onPressed: () {},
-            child: Text(
-              "TextButton",
-              style: TextStyle(color: Colors.white),
-            ),
-          )
+          ),
         ]));
   }
 }
