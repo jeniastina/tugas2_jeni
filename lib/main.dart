@@ -72,6 +72,7 @@ class MyHomePage extends StatelessWidget {
             child: TextFormField(
                 decoration: new InputDecoration(
               fillColor: Colors.blue,
+              filled: true,
               hintText: "Shoes 101",
               border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
             )),
