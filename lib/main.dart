@@ -134,14 +134,7 @@ class MyHomePage extends StatelessWidget {
           Container(
               margin: EdgeInsets.all(20),
               width: 100,
-              height: 50,
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.grey,
-                  width: 2,
-                ),
-                borderRadius: BorderRadius.circular(10),
-              ),
+              height: 150,
               child: TextFormField(
                 decoration: new InputDecoration(
                     hintStyle: TextStyle(color: Colors.grey),
