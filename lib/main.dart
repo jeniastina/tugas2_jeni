@@ -71,25 +71,16 @@ class MyHomePage extends StatelessWidget {
             padding: EdgeInsets.all(15),
             child: Text('''Product Name''', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
           ),
-          Column(
-              children: <Widget>[
-                Image.network('https://www.petanikode.com/img/flutter/flutter.png'),
-                Text(
-                  'Belajar Flutter untuk Pemula',
-                  style: TextStyle(fontSize: 24, fontFamily: "Serif", height: 2.0),
-                ),
-                Text('oleh Petani Kode'),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    Image.network('https://www.petanikode.com/img/flutter/flutter-sqr.png'),
-                    Image.network('https://www.petanikode.com/img/flutter/flutter-sqr.png')
-                  ],
-                )
-            ]
-          )
-      ),
-
+          Container(
+              margin: EdgeInsets.all(20),
+              child: TextFormField(
+                decoration: new InputDecoration(
+                    hintText: "Shoes 101",
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12.0)),
+                      borderSide: BorderSide(color: Colors.blue, width: 2),
+                    )),
+              )),
         ]));
   }
 }
