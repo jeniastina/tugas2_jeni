@@ -71,10 +71,8 @@ class MyHomePage extends StatelessWidget {
             margin: EdgeInsets.all(20),
             child: TextFormField(
                 decoration: new InputDecoration(
-              fillColor: Colors.blue,
-              filled: true,
               hintText: "Shoes 101",
-              border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
+              border: OutlineInputBorder(borderSide: const BorderSide(color: Colors.blue, width: 2.0), borderRadius: new BorderRadius.circular(5.0)),
             )),
           ),
         ]));
