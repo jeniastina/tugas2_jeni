@@ -74,8 +74,8 @@ class MyHomePage extends StatelessWidget {
           Container(
               margin: EdgeInsets.all(20),
               child: TextFormField(
-                style: TextStyle(color: Colors.white),
                 decoration: new InputDecoration(
+                    hintStyle: TextStyle(color: Colors.blue),
                     hintText: "Shoes 101",
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(12.0)),
