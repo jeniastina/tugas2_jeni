@@ -82,15 +82,7 @@ class MyHomePage extends StatelessWidget {
               ),
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Text('''Shoes 101''', style: TextStyle(color: Colors.blue.withOpacity(0.6), fontSize: 10)),
-          ),
-          Container(
-            margin: EdgeInsets.all(20),
-            child: TextFormField(
-                decoration: new InputDecoration(
-              hintText: "Shoes 101",
-              border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
-            )),
+            child: Text('''Shoes 101''', style: TextStyle(color: Colors.blue.withOpacity(0.6), fontSize: 15)),
           ),
         ]));
   }
