@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Name''', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
           ),
           Container(
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.all(5),
             child: TextFormField(
                 decoration: new InputDecoration(
               hintText: "Shoes 101",
