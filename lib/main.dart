@@ -145,6 +145,21 @@ class MyHomePage extends StatelessWidget {
                       borderSide: BorderSide(color: Colors.grey, width: 2),
                     )),
               )),
+          TextButton(
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18.0),
+                ),
+              ),
+            ),
+            onPressed: () {},
+            child: Text(
+              "TextButton",
+              style: TextStyle(color: Colors.white),
+            ),
+          )
         ]));
   }
 }
