@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
             child: Text('Product Information', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
           ),
           Container(
-            padding: EdgeInsets.all(15),
+            padding: EdgeInsets.all(5),
             child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
           ),
           Container(
@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
             child: Text('''Product Name''', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15)),
           ),
           Container(
-            margin: EdgeInsets.all(5),
+            margin: EdgeInsets.all(20),
             child: TextFormField(
                 decoration: new InputDecoration(
               hintText: "Shoes 101",
