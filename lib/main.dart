@@ -41,8 +41,12 @@ class MyHomePage extends StatelessWidget {
             child: Text('Product Information', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
           ),
           Container(
-            padding: EdgeInsets.all(5),
-            child: Text('''Product Image''', style: TextStyle(fontSize: 15)),
+            padding: EdgeInsets.all(15),
+            child: Text('''Product Image''',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15,
+                )),
           ),
           Container(
             margin: EdgeInsets.all(20),
@@ -72,7 +76,7 @@ class MyHomePage extends StatelessWidget {
             child: TextFormField(
                 decoration: new InputDecoration(
               hintText: "Shoes 101",
-              border: OutlineInputBorder(borderSide: const BorderSide(color: Colors.blue, width: 2.0), borderRadius: new BorderRadius.circular(5.0)),
+              border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
             )),
           ),
         ]));
