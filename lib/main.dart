@@ -73,6 +73,19 @@ class MyHomePage extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.all(20),
+            width: 100,
+            height: 10,
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.blue,
+                width: 3,
+              ),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Text('''Shoes 101''', style: TextStyle(color: Colors.blue.withOpacity(0.6), fontSize: 10)),
+          ),
+          Container(
+            margin: EdgeInsets.all(20),
             child: TextFormField(
                 decoration: new InputDecoration(
               hintText: "Shoes 101",
