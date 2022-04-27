@@ -67,12 +67,14 @@ class MyHomePage extends StatelessWidget {
             padding: EdgeInsets.all(15),
             child: Text('''Product Name''', style: TextStyle(fontSize: 15)),
           ),
-          TextFormField(
-            decoration: new InputDecoration(
+          Container(
+            width: 100.0,
+            child: TextFormField(
+                decoration: new InputDecoration(
               hintText: "Shoes 101",
               border: OutlineInputBorder(borderRadius: new BorderRadius.circular(5.0)),
-            ),
-          )
+            )),
+          ),
         ]));
   }
 }
