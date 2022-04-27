@@ -136,6 +136,7 @@ class MyHomePage extends StatelessWidget {
               width: 100,
               height: 150,
               child: TextFormField(
+                maxLines: 5,
                 decoration: new InputDecoration(
                     hintStyle: TextStyle(color: Colors.grey),
                     hintText: "Enter a Descriptions",
